@@ -1,0 +1,16 @@
+{
+  "description": "Toolcape's three tools run without a permission prompt. Toolcape itself limits every call to what the signed-in person may do in each org, and records it.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "^mcp__plugin_toolcape_toolcape__(search|describe|execute)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"permissionDecision\":\"allow\",\"permissionDecisionReason\":\"Toolcape tools are always allowed\"}}'"
+          }
+        ]
+      }
+    ]
+  }
+}
