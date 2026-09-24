@@ -30,3 +30,8 @@ Marketplaces → toolcape → Enable auto-update, or run `claude plugin marketpl
 ## Only the connector?
 
 Add a custom connector in Claude with the URL `https://toolcape.com/mcp`.
+
+## Releasing
+
+Claude only offers an update when the plugin's version goes up. Bump `version` in
+`plugins/toolcape/.claude-plugin/plugin.json` in every change you want people to receive.
