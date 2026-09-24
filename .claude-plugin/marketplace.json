@@ -1,0 +1,18 @@
+{
+  "name": "toolcape",
+  "description": "The Toolcape plugin for Claude: one connector to your organization's tools, and how to use it.",
+  "owner": {
+    "name": "Toolcape",
+    "url": "https://toolcape.com"
+  },
+  "plugins": [
+    {
+      "name": "toolcape",
+      "displayName": "Toolcape",
+      "source": "./plugins/toolcape",
+      "description": "Your organization's tools in Claude through one connector: search, describe and call every service your org has connected, signed in as you and limited to what you are allowed.",
+      "homepage": "https://toolcape.com",
+      "category": "productivity"
+    }
+  ]
+}

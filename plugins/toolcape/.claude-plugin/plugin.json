@@ -1,0 +1,8 @@
+{
+  "name": "toolcape",
+  "displayName": "Toolcape",
+  "description": "Your organization's tools in Claude through one connector: search, describe and call every service your org has connected, signed in as you and limited to what you are allowed.",
+  "author": { "name": "Toolcape", "url": "https://toolcape.com" },
+  "homepage": "https://toolcape.com",
+  "repository": "https://github.com/toolcape/claude-plugins"
+}

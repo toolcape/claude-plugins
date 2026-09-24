@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "toolcape": {
+      "type": "http",
+      "url": "https://toolcape.com/mcp"
+    }
+  }
+}
